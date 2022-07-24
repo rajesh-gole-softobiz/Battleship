@@ -1,0 +1,103 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap'); */
+
+body {
+    background-color: rgb(255, 255, 255);
+    /* background-image: url(https://github.com/sgtPepper90/Battleship-Game/blob/master/background.png?raw=true); */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 100;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+
+}
+
+td:hover {
+    background-color: rgba(28, 31, 28, 0.24);
+    transition: all .2s ease;
+}
+
+.table {
+    margin: auto;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-family: sans-serif;
+    border-spacing: 0px;
+    border-color: rgb(0, 0, 0);
+
+}
+
+th {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+
+}
+
+.boats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    justify-items: center;
+    margin-left: 35px;
+    margin-top: 20px;
+
+}
+
+p {
+    margin: 22px;
+    padding: 3px;
+
+
+}
+
+.hit,
+.miss {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+
+}
+
+.hit {
+    background-image: url(https://raw.githubusercontent.com/rajesh-gole-softobiz/resources/main/img/ship.png?raw=true);
+}
+
+.miss {
+    background-image: url(https://raw.githubusercontent.com/rajesh-gole-softobiz/resources/main/img/Miss.png?raw=true);
+}
+
+.shipHit {
+    text-decoration: line-through;
+    text-decoration-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.cover {
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: x-large ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: auto;
+    margin-top: 250px;
+    background-color: rgb(0, 0, 0);
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    }
